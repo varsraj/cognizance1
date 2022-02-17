@@ -1,0 +1,13 @@
+Providing nth term of fibonacci series
+   Take the n value as input;
+   assign a variable a=0;
+   assign a variable b=1;
+   assign a variable c=0;
+   if n=1,
+     assign c=1
+    else
+     for i=0 to n-2 (n-2 because the term coming after n number of loops will be n+2th term)
+       assign c=a+b;
+       assign a=b;
+       assign b=c;(this is to create a,b for next repition of loop if exists)
+   output c;(This will give you your nth term of fibonacci series)
