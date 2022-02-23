@@ -1,0 +1,17 @@
+a = input("Enter your number to be checked: ")
+c = int(a)
+k = len(a)
+print(k)
+d = int(a)
+print(type(d))
+b = 0
+e = 1
+while k!=0:
+  b = b + ((c%((10)^e))*((10)^k-1))
+  print(b)
+  k=k-1
+  e=e+1
+if b == int(a):
+  print("True")
+else: 
+  print("False")
