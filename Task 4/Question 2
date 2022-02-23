@@ -1,0 +1,2 @@
+string = input('Enter the String: ')
+print(string[0::2])
